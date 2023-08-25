@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+
+// TODO: Uncomment this for local message to work:
+// useI18n()
+
 defineProps<{
   msg: string
 }>()
