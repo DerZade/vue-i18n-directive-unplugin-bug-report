@@ -7,6 +7,7 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green" v-t="'global'"></h1>
+    <h1 class="green" v-t="'local'"></h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
@@ -39,3 +40,11 @@ h3 {
   }
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "local": "Local Path works!"
+  }
+}
+</i18n>
